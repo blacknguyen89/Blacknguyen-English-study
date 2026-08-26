@@ -5,7 +5,7 @@ lưu dữ liệu trên Supabase (đồng bộ nhiều thiết bị), bảo vệ 
 
 ## 1. Tạo bảng dữ liệu trên Supabase
 
-Vào Supabase → project của DABU → **SQL Editor** → dán đoạn SQL sau → bấm **Run**:
+Vào Supabase → project của bạn → **SQL Editor** → dán đoạn SQL sau → bấm **Run**:
 
 ```sql
 create table if not exists kv_store (
@@ -28,7 +28,7 @@ with check (true);
 
 ## 2. Đưa code lên GitHub (không cần cài git)
 
-1. Vào github.com → **New repository** → đặt tên (VD: `ho-chieu-tieng-anh`) → Create.
+1. Vào github.com → **New repository** → đặt tên (VD: `hoc-tieng-anh`) → Create.
 2. Trong repo vừa tạo, chọn **Add file → Upload files**.
 3. Kéo thả toàn bộ các file/folder trong thư mục này vào (giữ nguyên cấu trúc thư mục).
 4. Bấm **Commit changes**.
@@ -44,7 +44,7 @@ with check (true);
    | `GEMINI_API_KEY` | API key lấy từ aistudio.google.com |
    | `SUPABASE_URL` | Project URL của Supabase |
    | `SUPABASE_ANON_KEY` | anon public key của Supabase |
-   | `APP_PIN` | Mã PIN DABU tự đặt để khoá app |
+   | `APP_PIN` | Mã PIN bạn tự đặt để khoá app |
 
 4. Bấm **Deploy**. Chờ khoảng 1-2 phút.
 5. Xong, Vercel sẽ đưa 1 đường link dạng `https://ho-chieu-tieng-anh.vercel.app` —
@@ -61,7 +61,7 @@ with check (true);
 
 - **"Chưa cấu hình GEMINI_API_KEY"**: kiểm tra lại Environment Variables trên Vercel,
   đảm bảo đã Deploy lại sau khi thêm biến.
-- **Mic không hoạt động**: trình duyệt cần HTTPS (Vercel tự có HTTPS) và DABU cần
+- **Mic không hoạt động**: trình duyệt cần HTTPS (Vercel tự có HTTPS) và bạn cần
   cho phép quyền truy cập micro khi được hỏi.
 - **Bị văng ra màn hình nhập PIN liên tục**: kiểm tra lại giá trị `APP_PIN` đã khớp
-  giữa Environment Variables và những gì DABU gõ.
+  giữa Environment Variables và những gì bạn gõ.
