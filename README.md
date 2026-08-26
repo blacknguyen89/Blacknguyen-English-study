@@ -37,7 +37,7 @@ with check (true);
 
 1. Vào vercel.com → **Add New → Project**.
 2. Chọn **Import** repo GitHub vừa tạo ở bước 2.
-3. Ở phần **Environment Variables**, thêm đủ 4 biến sau (giá trị thật của DABU):
+3. Ở phần **Environment Variables**, thêm đủ 4 biến sau (giá trị thật của bạn):
 
    | Tên biến | Giá trị |
    |---|---|
@@ -47,7 +47,7 @@ with check (true);
    | `APP_PIN` | Mã PIN bạn tự đặt để khoá app |
 
 4. Bấm **Deploy**. Chờ khoảng 1-2 phút.
-5. Xong, Vercel sẽ đưa 1 đường link dạng `https://ho-chieu-tieng-anh.vercel.app` —
+5. Xong, Vercel sẽ đưa 1 đường link dạng `https://hoc-tieng-anh.vercel.app` —
    mở link này trên điện thoại, nhập mã PIN, dùng như app bình thường.
 
 ## 4. Sau này muốn sửa gì?
