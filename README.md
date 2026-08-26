@@ -1,4 +1,4 @@
-# Hộ Chiếu Tiếng Anh — Web App
+# Học Tiếng Anh — Web App
 
 Web app học tiếng Anh cá nhân, dùng Gemini API (dạy học + nghe ghi âm chấm phát âm),
 lưu dữ liệu trên Supabase (đồng bộ nhiều thiết bị), bảo vệ bằng mã PIN.
