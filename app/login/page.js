@@ -54,7 +54,7 @@ export default function LoginPage() {
         }}
       >
         <h2 style={{ color: "#f3ead8", marginTop: 0, fontSize: "18px" }}>
-          🛂 Hộ Chiếu Tiếng Anh
+          🛂 English-Study
         </h2>
         <p style={{ color: "#9aa4b8", fontSize: "13px" }}>Nhập mã PIN để vào app</p>
         <input
