@@ -1,4 +1,4 @@
-"use client";
+ngli"use client";
 
 import React, { useState, useEffect, useRef, useCallback } from "react";
 import {
@@ -257,7 +257,7 @@ export default function EnglishTutorApp() {
           }
         }
       } catch (e) {
-        setError("Có lỗi khi gọi AI: " + e.message + " — DABU thử gửi lại nhé.");
+        setError("Có lỗi khi gọi AI: " + e.message + " — Vui lòng thử gửi lại nhé.");
       } finally {
         setLoading(false);
       }
@@ -436,7 +436,7 @@ export default function EnglishTutorApp() {
       <div className="header">
         <div className="header-top">
           <div>
-            <p className="title"><Stamp size={20} className="stamp-icon" /> Hộ Chiếu Tiếng Anh</p>
+            <p className="title"><Stamp size={20} className="stamp-icon" /> English-Study</p>
             <p className="subtitle">
               {lessonCount > 0 ? `Đã hoàn thành ${lessonCount} buổi` : "Chưa bắt đầu hành trình"}
               {profile ? " · Đã có Hồ sơ trình độ" : ""}
