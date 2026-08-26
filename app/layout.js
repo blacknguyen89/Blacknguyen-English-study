@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Hộ Chiếu Tiếng Anh",
+  title: "English-Study",
   description: "Học tiếng Anh giao tiếp cùng AI",
 };
 
